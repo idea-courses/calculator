@@ -1,0 +1,20 @@
+type: edu
+files:
+- name: src/Calculator.java
+  visible: true
+  placeholders:
+  - offset: 74
+    length: 5
+    placeholder_text: 0
+    dependency:
+      section: Calculator
+      lesson: Creating a simple calculator
+      task: Addition
+      file: src/Calculator.java
+      placeholder: 1
+      is_visible: false
+  - offset: 139
+    length: 5
+    placeholder_text: 0
+- name: test/Tests.java
+  visible: false
